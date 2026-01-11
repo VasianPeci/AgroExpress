@@ -32,11 +32,11 @@ export const sendLoginSignupOtp = createAsyncThunk(
 
 export const signup = createAsyncThunk(
   'auth/signup',
-  async (signupRequest, { rejectWithValue }) => {
-    console.log('signup', signupRequest);
+  async ({ fullName, email, navigate }, { rejectWithValue }) => {
+    console.log('signup', { fullName, email });
     try {
-      const response = await api.post(`${API_URL}/signup`, signupRequest);
-      signupRequest.navigate('/');
+      const response = await api.post(`${API_URL}/signup`, { fullName, email });
+      navigate('/');
       localStorage.setItem('jwt', response.data.jwt);
       return response.data;
     } catch (error) {

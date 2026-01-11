@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShopNexGenMultiVendorApplicationTests {
+class AgroExpressMultiVendorApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println(ShopNexGenMultiVendorApplicationTests.class);
+		System.out.println(AgroExpressMultiVendorApplicationTests.class);
 	}
 
 }

@@ -1,0 +1,4 @@
+- [ ] Modify SignupForm.jsx to remove OTP sending and input, allow direct signup with email and name
+- [ ] Update AuthSlice.js signup thunk to exclude otp parameter
+- [ ] Update authTypes.js SignupRequest to remove otp
+- [ ] Test the changes to ensure signup works without email verification
