@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #8d6e63;
+  --agricultural-green: #4caf50;
+  --earthy-brown: #8d6e63;
+  --natural-beige: #f5f5dc;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--natural-beige);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--agricultural-green);
+}
+
+.blur-bg {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  box-shadow: rgba(225, 225, 225, 0.24) 0px 3px 8px !important;
+}
+
+/* Agricultural-themed styles */
+.agricultural-card {
+  border: 1px solid var(--earthy-brown);
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.agricultural-button {
+  background-color: var(--agricultural-green);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.agricultural-button:hover {
+  background-color: #45a049;
+}
+
+.agricultural-text {
+  color: var(--earthy-brown);
+}
+
+.agricultural-header {
+  color: var(--agricultural-green);
+  font-weight: 600;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

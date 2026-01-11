@@ -1,0 +1,86 @@
+export const seedsFertilizersLevelThree = [
+  {
+    name: "Winter Wheat Seeds",
+    categoryId: "winter_wheat_seeds",
+    parentCategoryId: "wheat_seeds",
+    level: 3,
+  },
+  {
+    name: "Spring Wheat Seeds",
+    categoryId: "spring_wheat_seeds",
+    parentCategoryId: "wheat_seeds",
+    level: 3,
+  },
+  {
+    name: "Basmati Rice Seeds",
+    categoryId: "basmati_rice_seeds",
+    parentCategoryId: "rice_seeds",
+    level: 3,
+  },
+  {
+    name: "Non-Basmati Rice Seeds",
+    categoryId: "non_basmati_rice_seeds",
+    parentCategoryId: "rice_seeds",
+    level: 3,
+  },
+  {
+    name: "Sweet Corn Seeds",
+    categoryId: "sweet_corn_seeds",
+    parentCategoryId: "corn_seeds",
+    level: 3,
+  },
+  {
+    name: "Field Corn Seeds",
+    categoryId: "field_corn_seeds",
+    parentCategoryId: "corn_seeds",
+    level: 3,
+  },
+  {
+    name: "Nitrogen Fertilizers",
+    categoryId: "nitrogen_fertilizers",
+    parentCategoryId: "fertilizers",
+    level: 3,
+  },
+  {
+    name: "Phosphorus Fertilizers",
+    categoryId: "phosphorus_fertilizers",
+    parentCategoryId: "fertilizers",
+    level: 3,
+  },
+  {
+    name: "Potassium Fertilizers",
+    categoryId: "potassium_fertilizers",
+    parentCategoryId: "fertilizers",
+    level: 3,
+  },
+  {
+    name: "Insecticides",
+    categoryId: "insecticides",
+    parentCategoryId: "pesticides",
+    level: 3,
+  },
+  {
+    name: "Herbicides",
+    categoryId: "herbicides",
+    parentCategoryId: "pesticides",
+    level: 3,
+  },
+  {
+    name: "Fungicides",
+    categoryId: "fungicides",
+    parentCategoryId: "pesticides",
+    level: 3,
+  },
+  {
+    name: "Cow Manure",
+    categoryId: "cow_manure",
+    parentCategoryId: "organic_manure",
+    level: 3,
+  },
+  {
+    name: "Vermicompost",
+    categoryId: "vermicompost",
+    parentCategoryId: "organic_manure",
+    level: 3,
+  },
+];
